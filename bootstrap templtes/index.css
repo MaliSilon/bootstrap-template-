@@ -1,0 +1,131 @@
+#header{
+	color: white;
+	background: #e74c3c;
+}
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#logo{
+
+	font-size: 2rem;
+	margin-top: 5px;
+}
+#menu{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	display:inline-block;
+}
+#menu li a{
+	color: white;
+	padding: 10px 40px;
+	display: block;
+
+}
+#menu li a:hover{
+		background-color: #c0392b;
+		text-decoration: none;
+}
+#banner{
+	background: url('nature.jpg') no-repeat 0 0;
+	background-size: cover: 
+}
+.banner-tittle{
+      padding-top: 6rem;
+
+}
+.banner-title h1{
+	background: rgb(255,255,255,0.9);
+	display: inline-block;
+	padding: 10px;
+	margin:30px;
+	color: black;
+
+}
+.banner-title p{
+	color:white;
+	background: #e74c3c;
+	padding: 10px;
+}
+
+.service-box{
+	text-align: center;
+}
+
+ i{
+	color: #e74c3c;
+	font-size: 1000px;
+	margin-bottom: 15px;
+
+}
+h2{
+	text-align: center;
+}
+
+#testimonials{
+	background: url('image.jpg') no-repeat 0 0;
+	background-size: cover: 
+	padding:50px 0px;
+	position: relative;
+	color: white;
+	padding-bottom: 50px;
+}
+.testimonail img{
+	border-radius: 50%;
+
+}
+.news-post img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.news-post h3{
+	font-size:1.35rem;
+
+}
+.post-date{
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+.post-date::before{
+	content: "\f073";
+	font-family: FrontAwesome;
+	padding-right:10px;
+}
+a.readmore{
+	font-size: 14px;
+	color:#e74c3c;
+}
+a.readmore:after{
+	content: "\f101" ;
+	font-family:FontAwesome;
+	padding-left: 5px;
+}
+#footer-sidebar{
+	color: white;
+	background: #34495e;
+	padding:20px 0;
+	margin-top: 5px;
+}
+#footer{
+	color: white;
+	background: #2c3e50;
+	padding:10px 0; 
+}
+#social-icons{
+	list-style: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+#social-icon li{
+	display: inline-flex;
+	padding-left: 225px: 
+}
+#social-icons li a{
+	color: white;
+	font-size: 23px;
+}
